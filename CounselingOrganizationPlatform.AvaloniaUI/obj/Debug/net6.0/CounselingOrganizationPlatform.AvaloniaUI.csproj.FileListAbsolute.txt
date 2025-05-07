@@ -1,0 +1,13 @@
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/CounselingOrganizationPlatform.AvaloniaUI.csproj.AssemblyReference.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/Avalonia/Resources.Inputs.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/Avalonia/resources
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/CounselingOrganizationPlatform.AvaloniaUI.GeneratedMSBuildEditorConfig.editorconfig
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/CounselingOrganizationPlatform.AvaloniaUI.AssemblyInfoInputs.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/CounselingOrganizationPlatform.AvaloniaUI.AssemblyInfo.cs
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/CounselingOrganizationPlatform.AvaloniaUI.csproj.CoreCompileInputs.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/CounselingOrganizationPlatform.AvaloniaUI.sourcelink.json
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/Avalonia/references
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/Avalonia/original.dll
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/Avalonia/original.pdb
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/Avalonia/original.ref.dll
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/obj/Debug/net6.0/refint/CounselingOrganizationPlatform.AvaloniaUI.dll

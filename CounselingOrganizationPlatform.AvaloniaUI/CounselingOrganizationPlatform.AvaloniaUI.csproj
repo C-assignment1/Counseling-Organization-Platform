@@ -12,10 +12,17 @@
     <PackageReference Include="Avalonia" Version="11.0.0" />
     <PackageReference Include="Avalonia.Desktop" Version="11.0.0" />
     <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
+<!-- Removed reference to main Windows Forms project to allow AvaloniaUI to build independently on Linux -->
+<!-- <ItemGroup>
     <ProjectReference Include="..\CounselingOrganizationPlatform\CounselingOrganizationPlatform.csproj" />
+  </ItemGroup> -->
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.0" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.0" />
   </ItemGroup>
 
 </Project>

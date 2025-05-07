@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using CounselingOrganizationPlatform.BLL;
+using CounselingOrganizationPlatform.AvaloniaUI.BLL;
 
 namespace CounselingOrganizationPlatform.AvaloniaUI.Views
 {
@@ -23,7 +23,7 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
             string password = PasswordTextBox.Text;
 
             // TODO: Implement registration logic using authService
-            bool success = authService.Register(name, email, password);
+            bool success = authService.RegisterUser(name, email, password, "User");
 
             var mainWindow = (MainWindow)this.VisualRoot;
 
@@ -38,7 +38,10 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
                     CanResize = false
                 };
                 dialog.ShowDialog((Window)this.VisualRoot);
+                // Replace MainContent.Content with appropriate navigation logic
+                // For example, if MainWindow has a ContentControl named MainContent:
                 mainWindow.MainContent.Content = new LoginView();
+                // If not, you need to implement navigation accordingly.
             }
             else
             {

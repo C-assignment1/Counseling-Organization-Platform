@@ -18,7 +18,7 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
                 new User { Id = 2, Name = "Bob", Email = "bob@example.com", Role = "User" }
             };
 
-            UsersDataGrid.Items = Users;
+            UsersDataGrid.ItemsSource = Users;
 
             AddUserButton.Click += AddUserButton_Click;
             EditUserButton.Click += EditUserButton_Click;
@@ -38,8 +38,8 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
             {
                 // TODO: Implement edit user logic
                 selectedUser.Name += " (edited)";
-                UsersDataGrid.Items = null;
-                UsersDataGrid.Items = Users;
+                UsersDataGrid.ItemsSource = null;
+                UsersDataGrid.ItemsSource = Users;
             }
         }
 

@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using CounselingOrganizationPlatform.BLL;
+using CounselingOrganizationPlatform.AvaloniaUI.BLL;
 
 namespace CounselingOrganizationPlatform.AvaloniaUI.Views
 {
@@ -25,7 +25,10 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
             {
                 // TODO: Navigate to MainWindow or main content
                 var mainWindow = (MainWindow) this.VisualRoot;
+                // Replace MainContent.Content with appropriate navigation logic
+                // For example, if MainWindow has a ContentControl named MainContent:
                 mainWindow.MainContent.Content = new UserManagementView();
+                // If not, you need to implement navigation accordingly.
             }
             else
             {
