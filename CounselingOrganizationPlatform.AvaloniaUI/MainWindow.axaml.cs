@@ -1,5 +1,7 @@
+using System;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using Avalonia.Controls.Primitives;
 using CounselingOrganizationPlatform.AvaloniaUI.Views;
 
 namespace CounselingOrganizationPlatform.AvaloniaUI
@@ -9,14 +11,18 @@ namespace CounselingOrganizationPlatform.AvaloniaUI
         public MainWindow()
         {
             InitializeComponent();
+            // Directly use the generated field MainContent from XAML
+            if (MainContent == null)
+                throw new Exception("MainContent control not found");
+            MainContent.Content = new UserManagementView();
         }
-
-        // Expose MainContent as a public property
-        public ContentControl MainContent => MainContent;
 
         private void UserManagementButton_Click(object? sender, RoutedEventArgs e)
         {
-            MainContent.Content = new UserManagementView();
+            if (MainContent != null)
+            {
+                MainContent.Content = new UserManagementView();
+            }
         }
     }
 }

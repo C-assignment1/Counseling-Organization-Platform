@@ -12,14 +12,14 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
         {
             InitializeComponent();
 
-            LoginButton.Click += LoginButton_Click;
-            RegisterButton.Click += RegisterButton_Click;
+            LoginButton!.Click += LoginButton_Click;
+            RegisterButton!.Click += RegisterButton_Click;
         }
 
         private void LoginButton_Click(object? sender, RoutedEventArgs e)
         {
-            string email = EmailTextBox.Text;
-            string password = PasswordTextBox.Text;
+            string email = EmailTextBox!.Text;
+            string password = PasswordTextBox!.Text;
 
             if (authService.Login(email, password))
             {
@@ -27,7 +27,7 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
                 var mainWindow = (MainWindow) this.VisualRoot;
                 // Replace MainContent.Content with appropriate navigation logic
                 // For example, if MainWindow has a ContentControl named MainContent:
-                mainWindow.MainContent.Content = new UserManagementView();
+mainWindow.MainContent!.Content = new UserManagementView();
                 // If not, you need to implement navigation accordingly.
             }
             else
@@ -47,8 +47,8 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
         private void RegisterButton_Click(object? sender, RoutedEventArgs e)
         {
             // TODO: Navigate to RegistrationView
-            var mainWindow = (MainWindow)this.VisualRoot;
-            mainWindow.MainContent.Content = new RegistrationView();
+var mainWindow = (MainWindow)this.VisualRoot;
+    mainWindow.MainContent!.Content = new RegistrationView();
         }
     }
 }

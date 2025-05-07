@@ -12,15 +12,15 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
         {
             InitializeComponent();
 
-            RegisterButton.Click += RegisterButton_Click;
-            BackToLoginButton.Click += BackToLoginButton_Click;
+            RegisterButton!.Click += RegisterButton_Click;
+            BackToLoginButton!.Click += BackToLoginButton_Click;
         }
 
         private void RegisterButton_Click(object? sender, RoutedEventArgs e)
         {
-            string name = NameTextBox.Text;
-            string email = EmailTextBox.Text;
-            string password = PasswordTextBox.Text;
+            string name = NameTextBox!.Text;
+            string email = EmailTextBox!.Text;
+            string password = PasswordTextBox!.Text;
 
             // TODO: Implement registration logic using authService
             bool success = authService.RegisterUser(name, email, password, "User");
@@ -40,7 +40,7 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
                 dialog.ShowDialog((Window)this.VisualRoot);
                 // Replace MainContent.Content with appropriate navigation logic
                 // For example, if MainWindow has a ContentControl named MainContent:
-                mainWindow.MainContent.Content = new LoginView();
+                mainWindow.MainContent!.Content = new LoginView();
                 // If not, you need to implement navigation accordingly.
             }
             else
@@ -60,7 +60,7 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
         private void BackToLoginButton_Click(object? sender, RoutedEventArgs e)
         {
             var mainWindow = (MainWindow)this.VisualRoot;
-            mainWindow.MainContent.Content = new LoginView();
+            mainWindow.MainContent!.Content = new LoginView();
         }
     }
 }

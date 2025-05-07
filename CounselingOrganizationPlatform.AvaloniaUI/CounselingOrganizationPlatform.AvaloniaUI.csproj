@@ -6,23 +6,24 @@
     <Nullable>enable</Nullable>
     <UseWPF>false</UseWPF>
     <UseWindowsForms>false</UseWindowsForms>
+    <AvaloniaResourceOutputPath>avares</AvaloniaResourceOutputPath>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.0.0" />
     <PackageReference Include="Avalonia.Desktop" Version="11.0.0" />
     <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.0.0" />
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
-  </ItemGroup>
-
-<!-- Removed reference to main Windows Forms project to allow AvaloniaUI to build independently on Linux -->
-<!-- <ItemGroup>
-    <ProjectReference Include="..\CounselingOrganizationPlatform\CounselingOrganizationPlatform.csproj" />
-  </ItemGroup> -->
-
-  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="Avalonia.Markup.Xaml.Loader" Version="11.0.0" PrivateAssets="all" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.0" />
     <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.0" />
+    <PackageReference Include="Avalonia.Sdk" Version="11.0.0" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
+    <AvaloniaResource Include="**\*.xaml" />
+  </ItemGroup>
+
+  <!-- <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Avalonia\Avalonia.targets" /> -->
 </Project>

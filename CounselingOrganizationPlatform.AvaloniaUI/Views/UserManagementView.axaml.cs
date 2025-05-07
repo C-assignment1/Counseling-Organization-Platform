@@ -14,8 +14,8 @@ namespace CounselingOrganizationPlatform.AvaloniaUI.Views
 
             Users = new ObservableCollection<User>
             {
-                new User { Id = 1, Name = "Alice", Email = "alice@example.com", Role = "Admin" },
-                new User { Id = 2, Name = "Bob", Email = "bob@example.com", Role = "User" }
+                new User { Id = 1, Name = "admin", Email = "admin@example.com", Role = "Admin" },
+                new User { Id = 2, Name = "user", Email = "user@example.com", Role = "User" },
             };
 
             UsersDataGrid.ItemsSource = Users;

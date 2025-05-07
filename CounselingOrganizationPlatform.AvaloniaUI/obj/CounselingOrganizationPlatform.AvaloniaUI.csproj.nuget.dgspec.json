@@ -50,7 +50,17 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Avalonia.Markup.Xaml.Loader": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Avalonia.ReactiveUI": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Avalonia.Sdk": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[11.0.0, )"
             },
@@ -60,7 +70,7 @@
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.1.0, )"
+              "version": "[5.2.0, )"
             }
           },
           "imports": [
