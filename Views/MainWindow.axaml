@@ -1,0 +1,8 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:views="clr-namespace:CounselingPlatform.Views"
+        x:Class="CounselingPlatform.Views.MainWindow"
+        Title="Counseling Platform">
+        
+    <ContentControl Content="{Binding CurrentView}"/>
+</Window>

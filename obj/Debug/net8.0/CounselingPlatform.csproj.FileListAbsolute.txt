@@ -1,0 +1,8 @@
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/CounselingPlatform.csproj.AssemblyReference.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/Avalonia/resources
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/CounselingPlatform.GeneratedMSBuildEditorConfig.editorconfig
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/CounselingPlatform.AssemblyInfoInputs.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/CounselingPlatform.AssemblyInfo.cs
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/CounselingPlatform.csproj.CoreCompileInputs.cache
+/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/obj/Debug/net8.0/CounselingPlatform.sourcelink.json

@@ -1,0 +1,11 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <StackPanel Width="300" Spacing="10">
+        <TextBox Watermark="Email" Text="{Binding Email}"/>
+        <TextBox Watermark="Password" PasswordChar="*" 
+                 Text="{Binding Password}"/>
+        <Button Content="Login" Command="{Binding LoginCommand}"/>
+        <TextBlock Text="Don't have an account? Register" 
+                   Classes="link" Command="{Binding NavigateRegisterCommand}"/>
+    </StackPanel>
+</UserControl>

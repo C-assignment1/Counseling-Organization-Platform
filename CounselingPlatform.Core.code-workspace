@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "CounselingPlatform.Core"
+		},
+		{
+			"path": "CounselingPlatform.DataAccess"
+		},
+		{
+			"path": "CounselingPlatform.Services"
+		},
+		{
+			"path": "CounselingPlatform.Tests"
+		},
+		{
+			"path": "CounselingPlatform.UI"
+		},
+		{
+			"path": "Database"
+		}
+	]
+}
