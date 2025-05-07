@@ -1,4 +1,4 @@
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using CounselingOrganizationPlatform.AvaloniaUI.DAL;
 
 namespace CounselingOrganizationPlatform.AvaloniaUI.BLL

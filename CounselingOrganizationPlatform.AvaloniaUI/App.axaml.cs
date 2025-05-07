@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using System.Linq;
 
 namespace CounselingOrganizationPlatform.AvaloniaUI
 {
