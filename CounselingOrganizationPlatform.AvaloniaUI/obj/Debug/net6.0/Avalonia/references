@@ -18,10 +18,23 @@
 /home/becky/.nuget/packages/avalonia.themes.fluent/11.0.0/lib/net6.0/Avalonia.Themes.Fluent.dll
 /home/becky/.nuget/packages/avalonia.win32/11.0.0/lib/net6.0/Avalonia.Win32.dll
 /home/becky/.nuget/packages/avalonia.x11/11.0.0/lib/net6.0/Avalonia.X11.dll
+/home/becky/.nuget/packages/azure.core/1.25.0/lib/net5.0/Azure.Core.dll
+/home/becky/.nuget/packages/azure.identity/1.7.0/lib/netstandard2.0/Azure.Identity.dll
 /home/becky/.nuget/packages/dynamicdata/7.9.5/lib/net6.0/DynamicData.dll
 /home/becky/.nuget/packages/harfbuzzsharp/2.8.2.3/lib/net6.0/HarfBuzzSharp.dll
 /home/becky/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll
+/home/becky/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/Microsoft.CSharp.dll
+/home/becky/.nuget/packages/microsoft.data.sqlclient/5.1.0/ref/net6.0/Microsoft.Data.SqlClient.dll
+/home/becky/.nuget/packages/microsoft.identity.client/4.47.2/lib/netcoreapp2.1/Microsoft.Identity.Client.dll
+/home/becky/.nuget/packages/microsoft.identity.client.extensions.msal/2.19.3/lib/netcoreapp2.1/Microsoft.Identity.Client.Extensions.Msal.dll
+/home/becky/.nuget/packages/microsoft.identitymodel.abstractions/6.24.0/lib/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/home/becky/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.24.0/lib/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/becky/.nuget/packages/microsoft.identitymodel.logging/6.24.0/lib/net6.0/Microsoft.IdentityModel.Logging.dll
+/home/becky/.nuget/packages/microsoft.identitymodel.protocols/6.24.0/lib/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/becky/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.24.0/lib/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/becky/.nuget/packages/microsoft.identitymodel.tokens/6.24.0/lib/net6.0/Microsoft.IdentityModel.Tokens.dll
+/home/becky/.nuget/packages/microsoft.sqlserver.server/1.0.0/lib/netstandard2.0/Microsoft.SqlServer.Server.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/Microsoft.VisualBasic.Core.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/Microsoft.VisualBasic.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/Microsoft.Win32.Primitives.dll
@@ -51,7 +64,6 @@
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Data.Common.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Data.DataSetExtensions.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Data.dll
-/home/becky/.nuget/packages/system.data.sqlclient/4.8.3/ref/netcoreapp2.1/System.Data.SqlClient.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Diagnostics.Contracts.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Diagnostics.Debug.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Diagnostics.DiagnosticSource.dll
@@ -71,6 +83,7 @@
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Globalization.Calendars.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Globalization.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Globalization.Extensions.dll
+/home/becky/.nuget/packages/system.identitymodel.tokens.jwt/6.24.0/lib/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.IO.Compression.Brotli.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.IO.Compression.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.IO.Compression.FileSystem.dll
@@ -91,6 +104,7 @@
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Linq.Expressions.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Linq.Parallel.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Linq.Queryable.dll
+/home/becky/.nuget/packages/system.memory.data/1.0.2/lib/netstandard2.0/System.Memory.Data.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Memory.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Net.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Net.Http.dll
@@ -149,6 +163,7 @@
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Security.Cryptography.Encoding.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Security.Cryptography.OpenSsl.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Security.Cryptography.Primitives.dll
+/home/becky/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Security.Cryptography.X509Certificates.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Security.dll
 /home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/ref/net6.0/System.Security.Principal.dll

@@ -11,12 +11,15 @@ namespace CounselingOrganizationPlatform.AvaloniaUI
         {
             AvaloniaXamlLoader.Load(this);
 
-            // Set FluentTheme Mode programmatically due to XAML Mode property issue
+            // Set RequestedThemeVariant to Light due to FluentTheme Mode property removal
+            this.RequestedThemeVariant = Avalonia.Styling.ThemeVariant.Light;
+            /*
             var fluentTheme = Styles.OfType<Avalonia.Themes.Fluent.FluentTheme>().FirstOrDefault();
             if (fluentTheme != null)
             {
                 fluentTheme.Mode = Avalonia.Themes.Fluent.FluentThemeMode.Light;
             }
+            */
         }
 
         public override void OnFrameworkInitializationCompleted()

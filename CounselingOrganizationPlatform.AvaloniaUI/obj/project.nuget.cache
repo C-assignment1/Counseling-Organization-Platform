@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QXhuNwysNSOLAIgYJUYMfZvF3ShSkaxaGQxGKJLLFF1vu/rcCoN3Vte6DV0+Is49BG727VjAJcco4f2p6+Cidg==",
+  "dgSpecHash": "4Qy++o5VzcFMxGCOl+zOgEvNjSFttT5GAlVHJKZliyk4rPzX56vW01y2LdXGtE99N/WCgGRS4zCgIOLSPsoafg==",
   "success": true,
   "projectFilePath": "/media/becky/fbb95933-6bf3-476c-ad04-81ce8356b618/Counseling-Organization-Platform/CounselingOrganizationPlatform.AvaloniaUI/CounselingOrganizationPlatform.AvaloniaUI.csproj",
   "expectedPackageFiles": [
@@ -74,10 +74,7 @@
     "/home/becky/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/home/becky/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/becky/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512",
-    "/home/becky/.nuget/packages/tmds.dbus.protocol/0.15.0/tmds.dbus.protocol.0.15.0.nupkg.sha512",
-    "/home/becky/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "/home/becky/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
-    "/home/becky/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.36/microsoft.netcore.app.host.linux-x64.6.0.36.nupkg.sha512"
+    "/home/becky/.nuget/packages/tmds.dbus.protocol/0.15.0/tmds.dbus.protocol.0.15.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -87,7 +84,7 @@
       "message": "Package 'Microsoft.Data.SqlClient' 5.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
       "libraryId": "Microsoft.Data.SqlClient",
       "targetGraphs": [
-        "net6.0"
+        "net8.0"
       ]
     }
   ]
